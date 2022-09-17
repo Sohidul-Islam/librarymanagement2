@@ -324,6 +324,12 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  .footer-content .text-box span {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+    font-size: 14px;
+  }
   .header-content .text-box h1 {
     font-size: 24px;
   }
