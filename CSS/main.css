@@ -118,6 +118,11 @@ body {
   color: #000;
 }
 
+.category-nav-item:hover .category-nav-link {
+  border-bottom: 3px solid #f72585;
+  font-weight: 600;
+}
+
 /* book item */
 .book-section {
   width: 85%;
