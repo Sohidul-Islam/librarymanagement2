@@ -209,7 +209,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-image: url("../img/formbg.jpg"); */
+  background-image: url("../img/formbg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
