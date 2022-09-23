@@ -129,7 +129,7 @@ body {
   width: 85%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   gap: 16px;
   padding: 10px;
 }
