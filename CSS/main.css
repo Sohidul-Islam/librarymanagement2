@@ -163,22 +163,23 @@ body {
   font-weight: 600;
   margin-bottom: 8px;
 }
-.book-btn {
+/* .book-btn {
   text-align: center;
-}
+} */
 .primary-btn {
   display: inline-block;
-  padding: 8px 16px;
+  padding: 4px 4px;
   background-color: #000;
   color: #fff;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   border-radius: 4px;
   margin-top: 16px;
   transition: all 0.5s ease;
 }
-.primary-btn:hover {
+.primary-btn:hover,
+.primary-btn:active {
   background-color: #fff;
   color: #000;
   border: 1px solid #000;
@@ -304,7 +305,8 @@ body {
     text-align: center;
   }
   .primary-btn {
-    padding: 8px 16px;
+    padding: 4px 4px;
+    font-size: 12px;
   }
   .nav-item {
     display: block;
@@ -323,6 +325,9 @@ body {
   }
   .book-text-box .book-author {
     font-size: 12px;
+  }
+  .input-content {
+    margin: 0 10px;
   }
   .footer-content .text-box h2 {
     font-size: 32px;
